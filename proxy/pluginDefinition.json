@@ -1,0 +1,15 @@
+{
+  "identifier": "com.rs.zosmf.proxy",
+  "pluginType": "application",
+  "authenticationCategory": "zosmf",
+  "apiVersion": "1.0.0",
+  "pluginVersion": "0.9.0",
+  "dataServices": [
+    {
+      "type": "external",
+      "name": "data",
+      "urlPrefix": "",
+      "isHttps": true
+    }
+  ]
+}
