@@ -13,7 +13,7 @@ In the case of this plugin, you can use this plugin to secure services that may 
 Because this plugin uses z/osmf sessions to confirm authentication, this plugin must be configured to know which z/osmf installation to target.
 
 Before use, edit the file `proxy/remote.json` by setting the host and port that points to a running z/osmf instance.
-Afterwards, be sure to run a Zoe deploy process by moving to `/zlux-build` and running `ant deploy`.
+Afterwards, be sure to run a Zowe deploy process by moving to `/zlux-build` and running `ant deploy`.
 
 This program and the accompanying materials are
 made available under the terms of the Eclipse Public License v2.0 which accompanies
