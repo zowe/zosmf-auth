@@ -1,4 +1,4 @@
-
+<?xml version="1.0"?>
 <!-- 
   This program and the accompanying materials are
   made available under the terms of the Eclipse Public License v2.0 which accompanies
@@ -8,7 +8,7 @@
   
   Copyright Contributors to the Zowe Project.
 -->
-<?xml version="1.0"?>
+
 <project name="zosmf-proxy">
     <target name="deploy">
       <copy file="../authentication.json" tofile="${deploy}/instance/ZLUX/pluginStorage/com.rs.zosmf.proxy/_internal/services/data/authentication.json"/>
