@@ -1,5 +1,5 @@
 {
-  "identifier": "com.rs.auth.zosmfAuth",
+  "identifier": "org.zowe.zlux.auth.zosmf",
   "pluginType": "nodeAuthentication",
   "authenticationCategory": "zosmf",
   "apiVersion": "1.0.0",
@@ -8,7 +8,7 @@
   "dataServices": [
     {
       "type": "import",
-      "sourcePlugin": "com.rs.zosmf.proxy",
+      "sourcePlugin": "org.zowe.zlux.proxy.zosmf",
       "sourceName": "data",
       "localName": "zosmf"
     }

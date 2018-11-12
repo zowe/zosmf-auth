@@ -11,8 +11,8 @@
 
 <project name="zosmf-proxy">
     <target name="deploy">
-      <copy file="../authentication.json" tofile="${deploy}/instance/ZLUX/pluginStorage/com.rs.zosmf.proxy/_internal/services/data/authentication.json"/>
-      <copy file="../remote.json" tofile="${deploy}/instance/ZLUX/pluginStorage/com.rs.zosmf.proxy/_internal/services/data/remote.json"/>
+      <copy file="../authentication.json" tofile="${deploy}/instance/ZLUX/pluginStorage/org.zowe.zlux.proxy.zosmf/_internal/services/data/authentication.json"/>
+      <copy file="../remote.json" tofile="${deploy}/instance/ZLUX/pluginStorage/org.zowe.zlux.proxy.zosmf/_internal/services/data/remote.json"/>
     </target>
 </project>
 <!-- 

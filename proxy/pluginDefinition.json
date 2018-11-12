@@ -1,5 +1,5 @@
 {
-  "identifier": "com.rs.zosmf.proxy",
+  "identifier": "org.zowe.zlux.proxy.zosmf",
   "pluginType": "application",
   "authenticationCategory": "zosmf",
   "apiVersion": "1.0.0",
