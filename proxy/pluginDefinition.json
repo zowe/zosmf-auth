@@ -9,7 +9,8 @@
       "type": "external",
       "name": "data",
       "urlPrefix": "",
-      "isHttps": true
+      "isHttps": true,
+      "version": "1.0.0"
     }
   ]
 }

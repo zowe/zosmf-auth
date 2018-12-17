@@ -10,7 +10,8 @@
       "type": "import",
       "sourcePlugin": "org.zowe.zlux.proxy.zosmf",
       "sourceName": "data",
-      "localName": "zosmf"
+      "localName": "zosmf",
+      "versionRange": "^1.0.0"
     }
   ]
 }
