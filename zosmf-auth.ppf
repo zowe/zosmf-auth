@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project default_configuration_name="Configuration 1" fallback_default_config_name="Configuration 1" file_encoding="ISO-8859-1" ltd_name="javascript" name="zosmf-auth" version="9.0.3.11">
+	<Configuration name="Configuration 1"/>
+	<Source exclude="false" path="." web="false"/>
+	<ProjectScanSettings/>
+</Project>
