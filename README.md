@@ -6,7 +6,10 @@ SPDX-License-Identifier: EPL-2.0
 
 Copyright Contributors to the Zowe Project.
 # Z/OSMF Auth Plugin
-This is a plugin for using z/osmf as an authentication & authorization endpoint.
+Auth handler for Zowe App Framework Server to establish user sessions with z/osmf and utilize it for authentication. See the [Auth web API](https://github.com/zowe/zlux/wiki/Authentication-with-ZLUX) and [Server config](https://github.com/zowe/zlux/wiki/Configuration-for-ZLUX-App-Server-&-ZSS) wiki pages for more info.
+
+**To request features or report bugs, please use the issues page at the [zlux repo](https://github.com/zowe/zlux/issues) with the server security tag**
+
 Auth plugins can be associated with non-auth plugins such that dataservices will not be processed without first passing authentication and authorization checks for the auth plugins associated with them.
 In the case of this plugin, you can use this plugin to secure services that may be used to do REST calls to a z/osmf installation.
 
