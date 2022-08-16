@@ -1,4 +1,4 @@
-name: Build vt2-ng2 workflow
+name: Build zosmf-auth workflow
 on:
   push:
     branches:
@@ -78,7 +78,7 @@ jobs:
         with:
           pax-ssh-username: ${{ secrets.SSH_MARIST_USERNAME }}
           pax-ssh-password: ${{ secrets.SSH_MARIST_RACF_PASSWORD }}
-          pax-name: vt2-ng2
+          pax-name: zosmf-auth
 
       - name: '[Prep 8] deploy '
         uses: zowe-actions/zlux-builds/deploy-pax@main
