@@ -1,8 +1,10 @@
-name: Build zosmf-auth workflow
+name: Build vt2-ng2 workflow
 on:
   push:
     branches:
-      - staging, master, rc 
+      - v1.x/staging
+      - master
+      - rc
   pull_request:
     types: [opened, reopened, synchronize]
 
@@ -48,12 +50,10 @@ jobs:
           key: ${{ runner.os }}-build-cache-node-modules-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-build-cache-node-modules-
-
       - name: '[Prep 3] Setup Node'
         uses: actions/setup-node@v2
         with:
           node-version: 10.24.1
-
 
       - name: '[Prep 4] Setup jFrog CLI'
         uses: jfrog/setup-jfrog-cli@v2
@@ -78,7 +78,7 @@ jobs:
         with:
           pax-ssh-username: ${{ secrets.SSH_MARIST_USERNAME }}
           pax-ssh-password: ${{ secrets.SSH_MARIST_RACF_PASSWORD }}
-          pax-name: zosmf-auth
+          pax-name: vt2-ng2
 
       - name: '[Prep 8] deploy '
         uses: zowe-actions/zlux-builds/deploy-pax@main
