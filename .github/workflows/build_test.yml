@@ -3,8 +3,8 @@ on:
   push:
     branches:
       - v1.x/staging
-      - master
-      - rc
+      - v1.x/master
+      - v1.x/rc
   pull_request:
     types: [opened, reopened, synchronize]
 
